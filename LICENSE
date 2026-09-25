@@ -1,0 +1,57 @@
+AiCumene EEG-BCI Sleep–Wake Dataset
+Public Dataset License Notice
+Version 1.0 — 2026
+
+The public synthetic component of the AiCumene EEG-BCI Sleep–Wake Dataset —
+all 45 synthetic recordings, including the public recording files and associated
+public metadata distributed in this repository — is licensed, to the extent the
+creators are entitled to license it, under:
+
+Creative Commons Attribution–NonCommercial 4.0 International
+(CC BY-NC 4.0)
+
+Rights in the underlying Sleep-EDF source database remain governed by the Open
+Data Commons Attribution License v1.0 (ODC-BY); see SOURCE DATA below.
+
+Official license:
+https://creativecommons.org/licenses/by-nc/4.0/
+
+Legal code:
+https://creativecommons.org/licenses/by-nc/4.0/legalcode
+
+Dataset creators:
+Alexandra Bernadotte
+Ivan Menshikov
+
+Project / data source:
+AiCumene
+
+Suggested attribution:
+
+"AiCumene EEG-BCI Sleep–Wake Dataset, created by Alexandra Bernadotte
+and Ivan Menshikov, AiCumene."
+
+Preprint / associated BOID research:
+https://research.aicumene.com/papers/boid-coma/
+
+This file identifies the Creative Commons license applicable to the public
+dataset. It does not alter, supplement, or replace the terms of CC BY-NC 4.0.
+
+SOURCE DATA
+
+The synthetic recordings are derived by oscillator resynthesis from the
+Sleep-EDF Database Expanded (Sleep Cassette), PhysioNet, distributed under the
+Open Data Commons Attribution License v1.0 (ODC-BY). See DATASET_DESCRIPTION.md
+for full source attribution (Kemp et al., 2000; Goldberger et al., 2000).
+
+IMPORTANT — PATENT RIGHTS
+
+CC BY-NC 4.0 does not license patent rights. No patent license is granted,
+expressly or by implication, by access to or use of this dataset.
+
+See PATENT_NOTICE.md for additional notice concerning BOID and related
+technology.
+
+The controlled-access portion of the dataset is not licensed under this file.
+Access to those recordings is governed separately by a data-use agreement
+provided to approved researchers as part of the controlled-access process.

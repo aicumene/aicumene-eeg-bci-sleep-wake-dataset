@@ -1,0 +1,115 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite the dataset and the associated BOID research where relevant."
+title: "AiCumene EEG-BCI Sleep–Wake Dataset"
+type: dataset
+
+authors:
+  - family-names: "Bernadotte"
+    given-names: "Alexandra"
+    orcid: "https://orcid.org/0000-0002-8835-6583"
+  - family-names: "Menshikov"
+    given-names: "Ivan"
+    orcid: "https://orcid.org/0000-0002-9987-4060"
+
+abstract: "A dataset in two components. (1) A public synthetic sleep-EEG benchmark of 45 synthetic recordings with sleep-stage hypnograms, produced by per-recording oscillator resynthesis of Sleep-EDF Expanded (Sleep Cassette; PhysioNet) — a phase-randomised surrogate that preserves each source recording's oscillatory structure; all 45 are released publicly under CC BY-NC 4.0 with attribution to the Sleep-EDF source. (2) 40 real AiCumene wearable-EEG recordings, held under controlled access and available to qualified researchers on request. The dataset supports research on Brain Oscillator Intrinsic Dimension (BOID), sleep-stage-dependent oscillator dimensionality, and Hankel/MSSA analysis."
+
+year: 2026
+date-released: 2026-09-24
+version: "1.0"
+doi: "10.5281/zenodo.22923070"
+license: "CC-BY-NC-4.0"
+
+url: "https://doi.org/10.5281/zenodo.22923070"
+repository-code: "https://github.com/aicumene/aicumene-eeg-bci-sleep-wake-dataset"
+
+keywords:
+  - EEG
+  - BCI
+  - brain-computer interface
+  - sleep
+  - wakefulness
+  - polysomnography
+  - intrinsic dimension
+  - oscillator dimensionality
+  - BOID
+  - Hankel embedding
+  - MSSA
+  - ESPRIT
+  - brain dynamics
+  - neurophysiology
+
+references:
+  - type: article
+    title: "Brain Oscillator Intrinsic Dimension marks consciousness, recovery mode, and failed downshifting in coma"
+    authors:
+      - family-names: "Bernadotte"
+        given-names: "Alexandra"
+        orcid: "https://orcid.org/0000-0002-8835-6583"
+      - family-names: "Menshikov"
+        given-names: "Ivan"
+        orcid: "https://orcid.org/0000-0002-9987-4060"
+    year: 2026
+    doi: "10.13140/RG.2.2.31610.25288"
+    url: "https://research.aicumene.com/papers/boid-coma/"
+
+  - type: article
+    title: "Topology-driven classification of time series"
+    authors:
+      - family-names: "Bernadotte"
+        given-names: "Alexandra"
+        orcid: "https://orcid.org/0000-0002-8835-6583"
+    year: 2026
+    doi: "10.64898/2026.04.25.720787"
+
+
+  - type: conference-paper
+    title: "Estimating the Number of Sources in EEG with Hankel Embedding for Brain-Computer Interface"
+    authors:
+      - family-names: "Bernadotte"
+        given-names: "Alexandra"
+        orcid: "https://orcid.org/0000-0002-8835-6583"
+    year: 2026
+    collection-title: "2026 12th International Conference on Automation, Robotics and Applications (ICARA)"
+    start: 621
+    end: 626
+    doi: "10.1109/ICARA69401.2026.11480398"
+    url: "https://doi.org/10.1109/ICARA69401.2026.11480398"
+
+  - type: conference-paper
+    title: "A Lightweight Hankel-Embedded Pipeline for Real-Time EEG Filtering and Classification"
+    authors:
+      - family-names: "Menshikov"
+        given-names: "Ivan"
+        orcid: "https://orcid.org/0000-0002-9987-4060"
+      - family-names: "Elfimov"
+        given-names: "Nikolai"
+      - family-names: "Bernadotte"
+        given-names: "Alexandra"
+        orcid: "https://orcid.org/0000-0002-8835-6583"
+    year: 2026
+    collection-title: "2026 12th International Conference on Automation, Robotics and Applications (ICARA)"
+    start: 589
+    end: 593
+    doi: "10.1109/ICARA69401.2026.11480292"
+    url: "https://doi.org/10.1109/ICARA69401.2026.11480292"
+
+  - type: article
+    title: "Analysis of a sleep-dependent neuronal feedback loop: the slow-wave microcontinuity of the EEG"
+    authors:
+      - family-names: "Kemp"
+        given-names: "Bob"
+      - family-names: "Zwinderman"
+        given-names: "Aeilko H."
+      - family-names: "Tuk"
+        given-names: "Bert"
+      - family-names: "Kamphuisen"
+        given-names: "Hilbert A. C."
+      - family-names: "Oberyé"
+        given-names: "Josefien J. L."
+    year: 2000
+    journal: "IEEE Transactions on Biomedical Engineering"
+    volume: 47
+    issue: 9
+    start: 1185
+    end: 1194
+    notes: "Source corpus (Sleep-EDF Database Expanded, Sleep Cassette; PhysioNet, ODC-BY 1.0) from which the synthetic component was resynthesised. https://physionet.org/content/sleep-edfx/"

@@ -1,0 +1,26 @@
+# ---------------------------------------------------------------------------
+# Signal data is NOT stored in this GitHub repository.
+# The canonical public archive for the 45 synthetic EDF/EDF+ recordings is
+# Zenodo: DOI 10.5281/zenodo.22923070
+# ---------------------------------------------------------------------------
+*.edf
+*.EDF
+public_data/*.edf
+public_data/*.EDF
+
+# Controlled-access real recordings must never be committed here.
+controlled_data/
+*.real.edf
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
